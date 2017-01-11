@@ -2,7 +2,7 @@ package com.pepboys.automation;
 
 
 
-import java.util.Iterator;
+
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
@@ -26,7 +26,7 @@ public class MakeAnAppointment {
 	   
 	    try{   
 	    	driver.get(baseUrl); 
-	    	//driver.get(baseUrl); 
+	    	driver.get(baseUrl); 
 	    	
 	        
 	        Set<String> availableWindows = driver.getWindowHandles(); 
@@ -92,7 +92,8 @@ public class MakeAnAppointment {
 	        driver.close();
 	        System.exit(0);
 	    	
-	    	
+	    	//html/body/div[7]/div[1]/a/span close x
+	        //.//*[@id='webmon-dialog']/img[1] pepboy image
 	    
 	}
 	
