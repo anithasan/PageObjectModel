@@ -32,9 +32,9 @@ public class LoginScenarios {
         
         Login login = new Login(driver);
         
-        login.setUserName("anithasn");
+        login.setUserName("xxxxaaaa");
         
-        login.setPassword("Rika2365***");
+        login.setPassword("aaadddaaa");
         
         HomePage hp = login.clickLogin();
         
