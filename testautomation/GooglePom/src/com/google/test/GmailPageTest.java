@@ -22,8 +22,8 @@ WebDriver webDriver;
   public void f() {
 	  
 	  gmailPage.setBaseurl("http://www.gmail.com");
-	  gmailPage.setUsername("aninag");
-	  gmailPage.setPassword("Rika2365**");
+	  gmailPage.setUsername("*******");
+	  gmailPage.setPassword("********");
 	  
 	  Boolean value = gmailPage.Login();
 	  
